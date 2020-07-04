@@ -32,7 +32,8 @@ class ProfilerSession(ProfilerSession):
                     if stack_depth == 0:
                         # There should only be one root frame, as far as I know
                         # assert root_frame is None, ASSERTION_MESSAGE
-                        root_frame = frame
+                        if root_frame is None:
+                            root_frame = frame
                     else:
                         parent = frame_stack[stack_depth-1]
                         parent.add_child(frame)

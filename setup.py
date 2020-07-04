@@ -10,7 +10,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='pyinstrument_patch',
     packages=['pyinstrument_patch'],
-    version='0.0.1',
+    version='0.0.2',
     license='MIT',
     description='Patch for fix pyinstrument root_frame exception',
     author='PhuongTMR',

@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: pyinstrument-patch
-Version: 0.0.1
+Version: 0.0.2
 Summary: Patch for fix pyinstrument root_frame exception
 Home-page: https://github.com/PhuongTMR/pyinstrument_patch.git
 Author: PhuongTMR
